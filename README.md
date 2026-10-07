@@ -1,333 +1,205 @@
-# Awesome-Microservices-Refactoring-Migration
+# Awesome Microservices Refactoring & Migration 🚀
 
-## Top Microservices Refactoring & Migration Ecosystem
+![Awesome Microservices Refactoring & Migration Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Microservices-Refactoring-Migration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Microservices-Refactoring-Migration?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Microservices-Refactoring-Migration/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Microservices-Refactoring-Migration?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 💡 Top Microservices Refactoring & Migration Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**Curated List of Enterprise SaaS Platforms & Open-Source GitHub Projects**
 
-*Focused on Monolith Decomposition, Service Mesh & Self-Hosted Migration Platforms*
+*Focused on Monolith Decomposition, Microservices Extraction, API Gateways, Service Mesh & Cloud Migration Platforms*
 
 **Last updated: October 2026**
 
-
-
-This repository tracks notable **commercial microservices refactoring platforms** and **open-source projects** that help organizations decompose monoliths, migrate to microservices, and manage service-to-service communication — from automated refactoring to API gateways and service mesh.
-
-
-
-**Examples** include AWS Migration Hub Refactor Spaces, vFunction, CAST Imaging, Dynatrace, Red Hat OpenShift, AppDynamics, Solo.io Gloo Mesh, Kong Gateway, Envoy Gateway, and Istio (the category leaders).
-
-
-
-**Open-source emphasis**: Microservices refactoring and migration is a strong open-source domain. **Istio**, **Linkerd**, **Cilium**, and **Kuma** provide service mesh foundations. **Kong**, **Traefik**, **Envoy Gateway**, and **Apache APISIX** handle API gateway and ingress. **OpenTelemetry** and **Jaeger** provide observability. **Crossplane** and **Dapr** enable service composition. **Tyk** and **KrakenD** offer API management. **Microservices Patterns** and **Saga pattern** implementations help with decomposition. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[AWS Migration Hub Refactor Spaces](https://aws.amazon.com/migration-hub/refactor-spaces/)**
-
-  **AWS's incremental refactoring service** — gradually extract microservices from monoliths . **Creates a refactor environment with routing and networking** . **Best for AWS-native monolith decomposition** .
-
-
-
-- **[vFunction](https://vfunction.com/)**
-
-  **AI-powered monolith modernization** — automatically identifies service boundaries and refactoring opportunities . **Best for Java monolith decomposition** .
-
-
-
-- **[CAST Imaging](https://www.castsoftware.com/)**
-
-  **Software intelligence platform** — visualizes application architecture for modernization . **Best for legacy modernization** .
-
-
-
-- **[Dynatrace](https://www.dynatrace.com/)**
-
-  **Observability and AIOps** — see Open-Source section for open-source alternatives.
-
-
-
-- **[Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)**
-
-  **Enterprise Kubernetes with migration tools** — supports microservices migration and modernization . **Best for enterprise Kubernetes** .
-
-
-
-- **[AppDynamics](https://www.appdynamics.com/)**
-
-  **Application performance monitoring** — see Open-Source section for open-source alternatives.
-
-
-
-- **[Solo.io Gloo Mesh](https://www.solo.io/)**
-
-  **Enterprise Istio management** — multi-cluster, multi-cloud service mesh . **Best for enterprise Istio** .
-
-
-
-- **[Kong Gateway](https://konghq.com/)**
-
-  **API gateway and service mesh** — see Open-Source section for Kong OSS.
-
-
-
-- **[Envoy Gateway](https://gateway.envoyproxy.io/)**
-
-  **Kubernetes-native gateway** — see Open-Source section for the core project.
-
-
-
-- **[Istio](https://istio.io/)**
-
-  **The leading service mesh** — see Open-Source section for the core project.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Service Mesh
-
-
-
-- **[Istio](https://github.com/istio/istio)**
-
-  **The most widely adopted service mesh**, Apache-2.0 licensed with **36,000+ GitHub stars** . **Traffic management, mTLS, observability, and policy enforcement** . **Sidecar-based architecture** with **Ambient Mesh** (sidecarless) in development . **The reference implementation for service mesh** . **Best for enterprise microservices** .
-
-
-
-- **[Linkerd](https://github.com/linkerd/linkerd2)**
-
-  **The most performant and simplest service mesh**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Rust-based micro-proxy** — lower latency and memory . **CNCF graduated project** . **Best for teams wanting mesh without complexity** .
-
-
-
-- **[Cilium Service Mesh](https://github.com/cilium/cilium)**
-
-  **eBPF-based service mesh**, Apache-2.0 licensed with **20,000+ GitHub stars** . **Sidecarless architecture** — uses eBPF for network policy and observability . **Best for Kubernetes-native networking** .
-
-
-
-- **[Kuma](https://github.com/kumahq/kuma)**
-
-  **Universal service mesh**, Apache-2.0 licensed with **3,500+ GitHub stars** . **Multi-cluster, multi-cloud, and multi-platform** . **Best for universal service mesh** .
-
-
-
-### API Gateway & Ingress
-
-
-
-- **[Kong Gateway (OSS)](https://github.com/Kong/kong)**
-
-  **The most widely adopted open-source API gateway**, Apache-2.0 licensed with **40,000+ GitHub stars** . **API management, rate limiting, authentication, and plugins** . **Best for API gateway** .
-
-
-
-- **[Traefik](https://github.com/traefik/traefik)**
-
-  **Cloud-native application proxy**, MIT licensed with **50,000+ GitHub stars** . **Ingress, reverse proxy, and service mesh** . **Automatic service discovery** . **Best for Kubernetes ingress** .
-
-
-
-- **[Envoy Gateway](https://github.com/envoyproxy/gateway)**
-
-  **Kubernetes-native gateway**, Apache-2.0 licensed with **2,000+ GitHub stars** . **Gateway API implementation based on Envoy** . **Best for Kubernetes gateway** .
-
-
-
-- **[Apache APISIX](https://github.com/apache/apisix)**
-
-  **High-performance API gateway**, Apache-2.0 licensed with **15,000+ GitHub stars** . **Dynamic routing, plugins, and observability** . **Best for high-performance API gateway** .
-
-
-
-- **[Tyk](https://github.com/TykTechnologies/tyk)**
-
-  **Open-source API gateway**, MPL-2.0 licensed . **API management with analytics and developer portal** . **Best for API management** .
-
-
-
-- **[KrakenD](https://github.com/krakend/krakend-ce)**
-
-  **Ultra-fast API gateway**, Apache-2.0 licensed . **API composition and aggregation** . **Best for API composition** .
-
-
-
-### Microservices Frameworks
-
-
-
-- **[Dapr](https://github.com/dapr/dapr)**
-
-  **Distributed application runtime**, Apache-2.0 licensed with **23,000+ GitHub stars** . **Building blocks for microservices** — service invocation, pub/sub, state management . **Best for microservices development** .
-
-
-
-- **[Go Micro](https://github.com/asim/go-micro)**
-
-  **Go microservices framework**, Apache-2.0 licensed . **Service discovery, RPC, and pub/sub** . **Best for Go microservices** .
-
-
-
-- **[Spring Cloud](https://github.com/spring-cloud)**
-
-  **Spring Boot microservices framework**, Apache-2.0 licensed . **Service discovery, config, and circuit breakers** . **Best for Java microservices** .
-
-
-
-- **[NestJS](https://github.com/nestjs/nest)**
-
-  **Node.js microservices framework**, MIT licensed with **70,000+ GitHub stars** . **TypeScript with modular architecture** . **Best for Node.js microservices** .
-
-
-
-### Observability & Tracing
-
-
-
-- **[OpenTelemetry](https://github.com/open-telemetry)**
-
-  **Vendor-neutral instrumentation**, Apache-2.0 licensed . **Traces, metrics, and logs** . **The standard for observability** . **Best for observability** .
-
-
-
-- **[Jaeger](https://github.com/jaegertracing/jaeger)**
-
-  **Distributed tracing platform**, Apache-2.0 licensed with **22,000+ GitHub stars** . **End-to-end tracing** . **Best for distributed tracing** .
-
-
-
-- **[Grafana Tempo](https://github.com/grafana/tempo)**
-
-  **Distributed tracing backend**, AGPL-3.0 licensed . **Trace storage with Grafana integration** . **Best for tracing with Grafana** .
-
-
-
-- **[SigNoz](https://github.com/SigNoz/signoz)**
-
-  **Open-source observability platform**, Apache-2.0 licensed with **23,000+ GitHub stars** . **Logs, traces, and metrics** . **Best for unified observability** .
-
-
-
-### Migration & Refactoring Tools
-
-
-
-- **[Crossplane](https://github.com/crossplane/crossplane)**
-
-  **Kubernetes-native cloud resource management**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Extends Kubernetes API to manage cloud resources** . **Best for platform teams** .
-
-
-
-- **[SchemaHero](https://github.com/schemahero/schemahero)**
-
-  **Database schema migration**, Apache-2.0 licensed . **Declarative schema management** . **Best for database migrations** .
-
-
-
-- **[Flyway](https://github.com/flyway/flyway)**
-
-  **Database migration tool**, Apache-2.0 licensed . **Version-based migrations** . **Best for database migrations** .
-
-
-
-- **[Liquibase](https://github.com/liquibase/liquibase)**
-
-  **Database schema change management**, Apache-2.0 licensed . **Database-agnostic migrations** . **Best for database migrations** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Go Kit** — Toolkit for microservices in Go .
-
-- **Micro** — Microservices runtime .
-
-- **Kong Mesh** — Enterprise service mesh .
-
-- **Consul** — Service discovery and mesh .
-
-- **Open Service Mesh** — Lightweight service mesh (archived) .
-
-- **Kiali** — Istio observability .
-
-- **Telepresence** — Local development for Kubernetes .
-
-- **Skaffold** — Kubernetes development .
-
-- **Tilt** — Kubernetes development .
-
-
-
-**Frameworks for building custom microservices refactoring and migration solutions**: Combine **Istio** or **Linkerd** for service mesh . Use **Kong** or **Traefik** for API gateway . Deploy **Dapr** for microservices building blocks . Integrate **OpenTelemetry** and **Jaeger** for observability . Choose **Crossplane** for cloud resource management . Use **Flyway** or **Liquibase** for database migrations . Note that true enterprise monolith decomposition with automated boundary identification, topology-aware refactoring, and vendor-supported SLAs (AWS Refactor Spaces, vFunction, CAST) remains primarily commercial territory; open-source stacks provide strong service mesh, API gateway, and observability foundations that require integration for complete microservices migration.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Microservices refactoring and migration involves significant architectural changes that can impact production systems. **Plan for incremental migration** — strangler fig pattern, feature flags, and rollback capabilities are essential .
-
-- **Service mesh adds operational complexity** — sidecar injection, control plane management, and traffic policies require expertise. Evaluate whether your organization has the capacity before adopting .
-
-- **Performance overhead varies** — Linkerd's Rust proxy has lower latency than Istio's Envoy sidecar . Cilium's eBPF approach eliminates sidecar overhead entirely . Benchmark before production deployment .
-
-- **License considerations**: Istio uses Apache-2.0, Kong uses Apache-2.0, Dapr uses Apache-2.0, and OpenTelemetry uses Apache-2.0. Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong service mesh, API gateway, and observability foundations, but **automated boundary identification, topology-aware refactoring, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+This repository tracks notable **commercial microservices refactoring platforms** and **open-source software** that empower software architects and platform engineers to decompose legacy monoliths, extract distributed microservices, and manage service-to-service communication — covering automated refactoring tools, API gateways, distributed observability, and service meshes.
 
 ---
 
+## 📑 Table of Contents
+- [SaaS & Enterprise Platforms](#-saas--enterprise-platforms)
+- [Open-Source GitHub Projects](#-open-source-github-projects)
+  - [API Gateways & Ingress](#api-gateways--ingress)
+  - [Microservices Frameworks](#microservices-frameworks)
+  - [Service Mesh](#service-mesh)
+  - [Observability & Tracing](#observability--tracing)
+  - [Developer Tooling & Cloud Management](#developer-tooling--cloud-management)
+  - [Database Schema Migration](#database-schema-migration)
+- [Star History](#-star-history)
+- [Support & Community](#-support--community)
+- [How to Contribute](#-how-to-contribute)
+- [Disclaimer](#-disclaimer)
 
+---
 
-**Made for platform engineers, architects, and organizations seeking microservices migration sovereignty.**
+## 🏢 SaaS & Enterprise Platforms
 
-Let's make microservices refactoring and migration more open, transparent, and manageable.
+> **Market Insights:** The global cloud migration and application modernization market size is estimated at **$18.5 Billion to $25.0 Billion** (growing at ~22% CAGR). The market is **moderately fragmented**, led by public cloud hyper-scalers (AWS, Microsoft, Google Cloud) alongside specialized SaaS modernization engines (vFunction, CAST Imaging) and enterprise platform vendors (Red Hat, Cisco/AppDynamics).
+
+| Enterprise Platform | Size / Valuation / Revenue | Starting Price | Free Tier / Trial Limit | Key Description & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)** | **~$34.0 Billion** (Red Hat division of IBM) | $0.08 per vCPU hour / $700 annually per vCPU pair | 60-day free trial on Red Hat OpenShift Service on AWS / Azure | Enterprise Kubernetes ecosystem with Migration Toolkit for Applications (MTA) to assist Java & monolith modernization. |
+| **[AppDynamics](https://www.appdynamics.com/)** | **~$3.7 Billion** (Acquired by Cisco) | $60.00 / month per CPU core (Infrastructure Monitoring) | 15-day free trial with unlimited agent capabilities | Application performance monitoring (APM) and dynamic topology mapping to pinpoint monolithic bottlenecks. |
+| **[Dynatrace](https://www.dynatrace.com/)** | **~$15.0 Billion** Valuation ($1.4B ARR) | $0.08 / hour per host (Full-Stack Monitoring, 8GB host) | 15-day free trial with 1,000 hour monitoring quota | AI-powered observability platform (Smartscape) mapping monolith component dependencies for microservice isolation. |
+| **[AWS Migration Hub Refactor Spaces](https://aws.amazon.com/migration-hub/refactor-spaces/)** | **~$100.0+ Billion** (AWS division of Amazon) | $0.028 per environment / hour | 3 months free (up to 2,160 environment hours & 500,000 API requests/month) | AWS incremental refactoring service utilizing Strangler Fig pattern for side-by-side microservice extraction. |
+| **[CAST Imaging](https://www.castsoftware.com/)** | **~$150.0 Million** Revenue | $2,100.00 / year (Express Tier) | 30-day free trial (CAST Imaging Express) / 12 months free for universities | Software intelligence engine visualising code dependencies and architectural boundaries across multi-million line monoliths. |
+| **[Kong Gateway (Enterprise)](https://konghq.com/)** | **~$1.4 Billion** Valuation ($100M+ ARR) | $250.00 / month (Plus Plan) | Free tier available (Kong Konnect Free Plan with 5 service instances & basic routing) | Enterprise API Gateway and service connectivity platform with governance, traffic control, and microservice routing. |
+| **[Solo.io Gloo Mesh](https://www.solo.io/)** | **~$1.0 Billion** Valuation ($15M ARR) | $1,500.00 / cluster / month (Base tier quote) | 30-day enterprise evaluation license + free self-paced interactive hands-on labs | Enterprise Istio & Envoy management mesh for multi-cluster microservice orchestration and security. |
+| **[vFunction](https://vfunction.com/)** | **~$150.0 Million** Valuation ($39.8M Funding) | $5,000.00 / application / year | Free 1-year Assessment Hub Express for up to 3 applications | AI-driven architectural observability platform that automates Java and .NET monolith refactoring into domain microservices. |
+
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+### API Gateways & Ingress
+
+- **[Traefik](https://github.com/traefik/traefik)** [![GitHub Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) 🌟 **65,098 stars**  
+  *Cloud-native reverse proxy and ingress controller*. Features automatic service discovery, dynamic routing, and built-in TLS termination. Ideal for Kubernetes microservice ingress.
+
+- **[Kong Gateway (OSS)](https://github.com/Kong/kong)** [![GitHub Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) 🌟 **44,248 stars**  
+  *Cloud-native Lua/OpenResty API gateway*. High-performance API routing, plugin ecosystem (rate-limiting, auth, logging), and service discovery.
+
+- **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) 🌟 **17,201 stars**  
+  *Dynamic high-performance API gateway*. Supports hot-reloading plugins, dynamic routing, traffic splitting, and OpenTelemetry tracing.
+
+- **[Tyk](https://github.com/TykTechnologies/tyk)** [![GitHub Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) 🌟 **10,854 stars**  
+  *Open-source API gateway & management platform*. Includes developer portals, rate limiting, and detailed analytics written in Go.
+
+- **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers) 🌟 **3,070 stars**  
+  *Kubernetes-native API Gateway powered by Envoy*. Official Gateway API controller for managing ingress traffic in cloud-native environments.
+
+- **[KrakenD](https://github.com/krakend/krakend-ce)** [![GitHub Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers) 🌟 **2,690 stars**  
+  *Ultra-fast stateless API gateway*. Focuses on microservice aggregation, payload transformation, and high-throughput backend decoupling.
+
+---
+
+### Microservices Frameworks
+
+- **[NestJS](https://github.com/nestjs/nest)** [![GitHub Stars](https://img.shields.io/github/stars/nestjs/nest?style=social&color=white)](https://github.com/nestjs/nest/stargazers) 🌟 **76,797 stars**  
+  *Progressive Node.js framework built with TypeScript*. Perfect for structuring modular monoliths or building decoupled microservices with gRPC and MQTT.
+
+- **[Spring Framework / Cloud](https://github.com/spring-projects/spring-framework)** [![GitHub Stars](https://img.shields.io/github/stars/spring-projects/spring-framework?style=social&color=white)](https://github.com/spring-projects/spring-framework/stargazers) 🌟 **60,276 stars**  
+  *The standard Java application framework*. Comprehensive cloud primitives for service discovery, externalized configuration, circuit breakers, and API gateways.
+
+- **[Go Kit](https://github.com/go-kit/kit)** [![GitHub Stars](https://img.shields.io/github/stars/go-kit/kit?style=social&color=white)](https://github.com/go-kit/kit/stargazers) 🌟 **27,424 stars**  
+  *Programming toolkit for building microservices in Go*. Provides RPC transport, logging, metrics, and circuit-breaking abstractions.
+
+- **[Dapr](https://github.com/dapr/dapr)** [![GitHub Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers) 🌟 **26,131 stars**  
+  *Distributed Application Runtime*. Provides portable sidecar APIs for state management, pub/sub, service invocation, and workflow execution.
+
+- **[Go Micro](https://github.com/micro/go-micro)** [![GitHub Stars](https://img.shields.io/github/stars/micro/go-micro?style=social&color=white)](https://github.com/micro/go-micro/stargazers) 🌟 **23,087 stars**  
+  *Distributed systems development framework for Go*. Includes pluggable service discovery, message encoding, and synchronous/asynchronous communication.
+
+---
+
+### Service Mesh
+
+- **[Istio](https://github.com/istio/istio)** [![GitHub Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers) 🌟 **38,426 stars**  
+  *The industry-standard open-source service mesh*. Manages mTLS encryption, traffic routing, fault injection, and telemetry without changing application code.
+
+- **[HashiCorp Consul](https://github.com/hashicorp/consul)** [![GitHub Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers) 🌟 **30,095 stars**  
+  *Service networking solution for service discovery and mesh*. Provides multi-cloud service registration, health checking, and network segmentation.
+
+- **[Cilium](https://github.com/cilium/cilium)** [![GitHub Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers) 🌟 **25,613 stars**  
+  *eBPF-powered network connectivity, observability, and security*. Enables sidecarless service mesh and kernel-level network performance for Kubernetes.
+
+- **[Linkerd2](https://github.com/linkerd/linkerd2)** [![GitHub Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers) 🌟 **11,507 stars**  
+  *Ultra-lightweight Rust-based service mesh*. CNCF graduated project prioritizing minimal CPU/memory overhead and effortless operational simplicity.
+
+- **[Kuma](https://github.com/kumahq/kuma)** [![GitHub Stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers) 🌟 **4,011 stars**  
+  *Universal control plane for Envoy service mesh*. Designed for cross-zone multi-cluster enterprise mesh deployments on Kubernetes and VMs.
+
+- **[Kiali](https://github.com/kiali/kiali)** [![GitHub Stars](https://img.shields.io/github/stars/kiali/kiali?style=social&color=white)](https://github.com/kiali/kiali/stargazers) 🌟 **3,641 stars**  
+  *Observability console for Istio service mesh*. Generates real-time service topology maps, traffic flows, and mTLS security validations.
+
+---
+
+### Observability & Tracing
+
+- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) 🌟 **32,303 stars**  
+  *Open-source native OpenTelemetry APM platform*. Unifies metrics, logs, and distributed trace visualization in a single dashboard.
+
+- **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers) 🌟 **23,269 stars**  
+  *CNCF graduated distributed tracing platform*. Pinpoints latency bottlenecks and traces request paths across complex microservice graphs.
+
+- **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers) 🌟 **5,511 stars**  
+  *High-scale, cost-effective trace storage backend*. Integrates seamlessly with Grafana, Prometheus, and Loki for full-stack telemetry.
+
+- **[OpenTelemetry Specification](https://github.com/open-telemetry/opentelemetry-specification)** [![GitHub Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-specification/stargazers) 🌟 **4,347 stars**  
+  *Vendor-neutral observability standard for traces, metrics, and logs*. The foundational telemetry standard for cloud-native applications.
+
+---
+
+### Developer Tooling & Cloud Management
+
+- **[Skaffold](https://github.com/GoogleContainerTools/skaffold)** [![GitHub Stars](https://img.shields.io/github/stars/GoogleContainerTools/skaffold?style=social&color=white)](https://github.com/GoogleContainerTools/skaffold/stargazers) 🌟 **15,892 stars**  
+  *Easy continuous development for Kubernetes*. Automates building, pushing, and deploying microservice pipelines locally or in remote clusters.
+
+- **[Crossplane](https://github.com/crossplane/crossplane)** [![GitHub Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers) 🌟 **12,134 stars**  
+  *Cloud native control plane framework*. Enables platform teams to assemble custom infrastructure CRDs for provisioning databases and cloud resources.
+
+- **[Tilt](https://github.com/tilt-dev/tilt)** [![GitHub Stars](https://img.shields.io/github/stars/tilt-dev/tilt?style=social&color=white)](https://github.com/tilt-dev/tilt/stargazers) 🌟 **10,091 stars**  
+  *Microservice development environment for Kubernetes*. Live-updates container changes in real-time with comprehensive service dashboards.
+
+- **[Telepresence](https://github.com/telepresenceio/telepresence)** [![GitHub Stars](https://img.shields.io/github/stars/telepresenceio/telepresence?style=social&color=white)](https://github.com/telepresenceio/telepresence/stargazers) 🌟 **7,312 stars**  
+  *Fast local dev loop for Kubernetes microservices*. Connects a local developer workstation directly to a remote Kubernetes cluster.
+
+---
+
+### Database Schema Migration
+
+- **[Flyway](https://github.com/flyway/flyway)** [![GitHub Stars](https://img.shields.io/github/stars/flyway/flyway?style=social&color=white)](https://github.com/flyway/flyway/stargazers) 🌟 **10,124 stars**  
+  *Version-controlled database migration tool*. Manages schema evolution and data migrations safely across monolithic database splits.
+
+- **[Liquibase](https://github.com/liquibase/liquibase)** [![GitHub Stars](https://img.shields.io/github/stars/liquibase/liquibase?style=social&color=white)](https://github.com/liquibase/liquibase/stargazers) 🌟 **5,621 stars**  
+  *Database schema change management solution*. Supports SQL, XML, JSON, and YAML formats for CI/CD database deployment tracking.
+
+- **[SchemaHero](https://github.com/schemahero/schemahero)** [![GitHub Stars](https://img.shields.io/github/stars/schemahero/schemahero?style=social&color=white)](https://github.com/schemahero/schemahero/stargazers) 🌟 **1,272 stars**  
+  *Declarative database schema migration tool for Kubernetes*. Converts declarative YAML table definitions into database migration scripts.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Microservices-Refactoring-Migration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Microservices-Refactoring-Migration&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring the **Awesome Microservices Refactoring & Migration** repository! 
+
+If you find this list helpful for your cloud migration journey or software architecture research:
+- ⭐️ **Star** this repository to increase visibility!
+- 🔀 **Fork** it to contribute missing platforms and open-source tools!
+- 📢 **Share** it with fellow software architects and platform engineers!
+- ☕ **Sponsor**: If you'd like to support open-source curation and maintenance, consider buying a coffee via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repo.
+2. Add or edit entries in `README.md` following the tabular & badge formats.
+3. Include product name, official link, stargazers URL, pricing details, and concise descriptions.
+4. Submit a Pull Request (PR) with a clear description of the addition.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated directory — not an exhaustive list or direct commercial endorsement.
+- Monolith decomposition and microservice migration introduce architectural overhead. Always execute migration incrementally via **Strangler Fig**, **Feature Toggles**, and **Circuit Breakers**.
+- Evaluate operational requirements before adopting service meshes or complex ingress controllers.
+
+---
+
+<p align="center">
+  <b>Built for Software Architects, Platform Engineers, and Cloud Modernization Teams 🚀</b><br>
+  Check out more awesome lists at <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome">Awesome-Awesome-Awesome</a>.
+</p>
