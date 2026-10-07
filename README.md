@@ -58,108 +58,108 @@ This repository tracks notable **commercial microservices refactoring platforms*
 
 ### API Gateways & Ingress
 
-- **[Traefik](https://github.com/traefik/traefik)** [![GitHub Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) 🌟 **65,098 stars**  
+- **[Traefik](https://github.com/traefik/traefik)** [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) 🌟 **65,098 stars**  
   *Cloud-native reverse proxy and ingress controller*. Features automatic service discovery, dynamic routing, and built-in TLS termination. Ideal for Kubernetes microservice ingress.
 
-- **[Kong Gateway (OSS)](https://github.com/Kong/kong)** [![GitHub Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) 🌟 **44,248 stars**  
+- **[Kong Gateway (OSS)](https://github.com/Kong/kong)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) 🌟 **44,248 stars**  
   *Cloud-native Lua/OpenResty API gateway*. High-performance API routing, plugin ecosystem (rate-limiting, auth, logging), and service discovery.
 
-- **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) 🌟 **17,201 stars**  
+- **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) 🌟 **17,201 stars**  
   *Dynamic high-performance API gateway*. Supports hot-reloading plugins, dynamic routing, traffic splitting, and OpenTelemetry tracing.
 
-- **[Tyk](https://github.com/TykTechnologies/tyk)** [![GitHub Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) 🌟 **10,854 stars**  
+- **[Tyk](https://github.com/TykTechnologies/tyk)** [![GitHub_Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers) 🌟 **10,854 stars**  
   *Open-source API gateway & management platform*. Includes developer portals, rate limiting, and detailed analytics written in Go.
 
-- **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers) 🌟 **3,070 stars**  
+- **[Envoy Gateway](https://github.com/envoyproxy/gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/envoyproxy/gateway?style=social&color=white)](https://github.com/envoyproxy/gateway/stargazers) 🌟 **3,070 stars**  
   *Kubernetes-native API Gateway powered by Envoy*. Official Gateway API controller for managing ingress traffic in cloud-native environments.
 
-- **[KrakenD](https://github.com/krakend/krakend-ce)** [![GitHub Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers) 🌟 **2,690 stars**  
+- **[KrakenD](https://github.com/krakend/krakend-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/krakend/krakend-ce?style=social&color=white)](https://github.com/krakend/krakend-ce/stargazers) 🌟 **2,690 stars**  
   *Ultra-fast stateless API gateway*. Focuses on microservice aggregation, payload transformation, and high-throughput backend decoupling.
 
 ---
 
 ### Microservices Frameworks
 
-- **[NestJS](https://github.com/nestjs/nest)** [![GitHub Stars](https://img.shields.io/github/stars/nestjs/nest?style=social&color=white)](https://github.com/nestjs/nest/stargazers) 🌟 **76,797 stars**  
+- **[NestJS](https://github.com/nestjs/nest)** [![GitHub_Stars](https://img.shields.io/github/stars/nestjs/nest?style=social&color=white)](https://github.com/nestjs/nest/stargazers) 🌟 **76,797 stars**  
   *Progressive Node.js framework built with TypeScript*. Perfect for structuring modular monoliths or building decoupled microservices with gRPC and MQTT.
 
-- **[Spring Framework / Cloud](https://github.com/spring-projects/spring-framework)** [![GitHub Stars](https://img.shields.io/github/stars/spring-projects/spring-framework?style=social&color=white)](https://github.com/spring-projects/spring-framework/stargazers) 🌟 **60,276 stars**  
+- **[Spring Framework / Cloud](https://github.com/spring-projects/spring-framework)** [![GitHub_Stars](https://img.shields.io/github/stars/spring-projects/spring-framework?style=social&color=white)](https://github.com/spring-projects/spring-framework/stargazers) 🌟 **60,276 stars**  
   *The standard Java application framework*. Comprehensive cloud primitives for service discovery, externalized configuration, circuit breakers, and API gateways.
 
-- **[Go Kit](https://github.com/go-kit/kit)** [![GitHub Stars](https://img.shields.io/github/stars/go-kit/kit?style=social&color=white)](https://github.com/go-kit/kit/stargazers) 🌟 **27,424 stars**  
+- **[Go Kit](https://github.com/go-kit/kit)** [![GitHub_Stars](https://img.shields.io/github/stars/go-kit/kit?style=social&color=white)](https://github.com/go-kit/kit/stargazers) 🌟 **27,424 stars**  
   *Programming toolkit for building microservices in Go*. Provides RPC transport, logging, metrics, and circuit-breaking abstractions.
 
-- **[Dapr](https://github.com/dapr/dapr)** [![GitHub Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers) 🌟 **26,131 stars**  
+- **[Dapr](https://github.com/dapr/dapr)** [![GitHub_Stars](https://img.shields.io/github/stars/dapr/dapr?style=social&color=white)](https://github.com/dapr/dapr/stargazers) 🌟 **26,131 stars**  
   *Distributed Application Runtime*. Provides portable sidecar APIs for state management, pub/sub, service invocation, and workflow execution.
 
-- **[Go Micro](https://github.com/micro/go-micro)** [![GitHub Stars](https://img.shields.io/github/stars/micro/go-micro?style=social&color=white)](https://github.com/micro/go-micro/stargazers) 🌟 **23,087 stars**  
+- **[Go Micro](https://github.com/micro/go-micro)** [![GitHub_Stars](https://img.shields.io/github/stars/micro/go-micro?style=social&color=white)](https://github.com/micro/go-micro/stargazers) 🌟 **23,087 stars**  
   *Distributed systems development framework for Go*. Includes pluggable service discovery, message encoding, and synchronous/asynchronous communication.
 
 ---
 
 ### Service Mesh
 
-- **[Istio](https://github.com/istio/istio)** [![GitHub Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers) 🌟 **38,426 stars**  
+- **[Istio](https://github.com/istio/istio)** [![GitHub_Stars](https://img.shields.io/github/stars/istio/istio?style=social&color=white)](https://github.com/istio/istio/stargazers) 🌟 **38,426 stars**  
   *The industry-standard open-source service mesh*. Manages mTLS encryption, traffic routing, fault injection, and telemetry without changing application code.
 
-- **[HashiCorp Consul](https://github.com/hashicorp/consul)** [![GitHub Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers) 🌟 **30,095 stars**  
+- **[HashiCorp Consul](https://github.com/hashicorp/consul)** [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers) 🌟 **30,095 stars**  
   *Service networking solution for service discovery and mesh*. Provides multi-cloud service registration, health checking, and network segmentation.
 
-- **[Cilium](https://github.com/cilium/cilium)** [![GitHub Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers) 🌟 **25,613 stars**  
+- **[Cilium](https://github.com/cilium/cilium)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers) 🌟 **25,613 stars**  
   *eBPF-powered network connectivity, observability, and security*. Enables sidecarless service mesh and kernel-level network performance for Kubernetes.
 
-- **[Linkerd2](https://github.com/linkerd/linkerd2)** [![GitHub Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers) 🌟 **11,507 stars**  
+- **[Linkerd2](https://github.com/linkerd/linkerd2)** [![GitHub_Stars](https://img.shields.io/github/stars/linkerd/linkerd2?style=social&color=white)](https://github.com/linkerd/linkerd2/stargazers) 🌟 **11,507 stars**  
   *Ultra-lightweight Rust-based service mesh*. CNCF graduated project prioritizing minimal CPU/memory overhead and effortless operational simplicity.
 
-- **[Kuma](https://github.com/kumahq/kuma)** [![GitHub Stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers) 🌟 **4,011 stars**  
+- **[Kuma](https://github.com/kumahq/kuma)** [![GitHub_Stars](https://img.shields.io/github/stars/kumahq/kuma?style=social&color=white)](https://github.com/kumahq/kuma/stargazers) 🌟 **4,011 stars**  
   *Universal control plane for Envoy service mesh*. Designed for cross-zone multi-cluster enterprise mesh deployments on Kubernetes and VMs.
 
-- **[Kiali](https://github.com/kiali/kiali)** [![GitHub Stars](https://img.shields.io/github/stars/kiali/kiali?style=social&color=white)](https://github.com/kiali/kiali/stargazers) 🌟 **3,641 stars**  
+- **[Kiali](https://github.com/kiali/kiali)** [![GitHub_Stars](https://img.shields.io/github/stars/kiali/kiali?style=social&color=white)](https://github.com/kiali/kiali/stargazers) 🌟 **3,641 stars**  
   *Observability console for Istio service mesh*. Generates real-time service topology maps, traffic flows, and mTLS security validations.
 
 ---
 
 ### Observability & Tracing
 
-- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) 🌟 **32,303 stars**  
+- **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers) 🌟 **32,303 stars**  
   *Open-source native OpenTelemetry APM platform*. Unifies metrics, logs, and distributed trace visualization in a single dashboard.
 
-- **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers) 🌟 **23,269 stars**  
+- **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub_Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers) 🌟 **23,269 stars**  
   *CNCF graduated distributed tracing platform*. Pinpoints latency bottlenecks and traces request paths across complex microservice graphs.
 
-- **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers) 🌟 **5,511 stars**  
+- **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers) 🌟 **5,511 stars**  
   *High-scale, cost-effective trace storage backend*. Integrates seamlessly with Grafana, Prometheus, and Loki for full-stack telemetry.
 
-- **[OpenTelemetry Specification](https://github.com/open-telemetry/opentelemetry-specification)** [![GitHub Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-specification/stargazers) 🌟 **4,347 stars**  
+- **[OpenTelemetry Specification](https://github.com/open-telemetry/opentelemetry-specification)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-specification?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-specification/stargazers) 🌟 **4,347 stars**  
   *Vendor-neutral observability standard for traces, metrics, and logs*. The foundational telemetry standard for cloud-native applications.
 
 ---
 
 ### Developer Tooling & Cloud Management
 
-- **[Skaffold](https://github.com/GoogleContainerTools/skaffold)** [![GitHub Stars](https://img.shields.io/github/stars/GoogleContainerTools/skaffold?style=social&color=white)](https://github.com/GoogleContainerTools/skaffold/stargazers) 🌟 **15,892 stars**  
+- **[Skaffold](https://github.com/GoogleContainerTools/skaffold)** [![GitHub_Stars](https://img.shields.io/github/stars/GoogleContainerTools/skaffold?style=social&color=white)](https://github.com/GoogleContainerTools/skaffold/stargazers) 🌟 **15,892 stars**  
   *Easy continuous development for Kubernetes*. Automates building, pushing, and deploying microservice pipelines locally or in remote clusters.
 
-- **[Crossplane](https://github.com/crossplane/crossplane)** [![GitHub Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers) 🌟 **12,134 stars**  
+- **[Crossplane](https://github.com/crossplane/crossplane)** [![GitHub_Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers) 🌟 **12,134 stars**  
   *Cloud native control plane framework*. Enables platform teams to assemble custom infrastructure CRDs for provisioning databases and cloud resources.
 
-- **[Tilt](https://github.com/tilt-dev/tilt)** [![GitHub Stars](https://img.shields.io/github/stars/tilt-dev/tilt?style=social&color=white)](https://github.com/tilt-dev/tilt/stargazers) 🌟 **10,091 stars**  
+- **[Tilt](https://github.com/tilt-dev/tilt)** [![GitHub_Stars](https://img.shields.io/github/stars/tilt-dev/tilt?style=social&color=white)](https://github.com/tilt-dev/tilt/stargazers) 🌟 **10,091 stars**  
   *Microservice development environment for Kubernetes*. Live-updates container changes in real-time with comprehensive service dashboards.
 
-- **[Telepresence](https://github.com/telepresenceio/telepresence)** [![GitHub Stars](https://img.shields.io/github/stars/telepresenceio/telepresence?style=social&color=white)](https://github.com/telepresenceio/telepresence/stargazers) 🌟 **7,312 stars**  
+- **[Telepresence](https://github.com/telepresenceio/telepresence)** [![GitHub_Stars](https://img.shields.io/github/stars/telepresenceio/telepresence?style=social&color=white)](https://github.com/telepresenceio/telepresence/stargazers) 🌟 **7,312 stars**  
   *Fast local dev loop for Kubernetes microservices*. Connects a local developer workstation directly to a remote Kubernetes cluster.
 
 ---
 
 ### Database Schema Migration
 
-- **[Flyway](https://github.com/flyway/flyway)** [![GitHub Stars](https://img.shields.io/github/stars/flyway/flyway?style=social&color=white)](https://github.com/flyway/flyway/stargazers) 🌟 **10,124 stars**  
+- **[Flyway](https://github.com/flyway/flyway)** [![GitHub_Stars](https://img.shields.io/github/stars/flyway/flyway?style=social&color=white)](https://github.com/flyway/flyway/stargazers) 🌟 **10,124 stars**  
   *Version-controlled database migration tool*. Manages schema evolution and data migrations safely across monolithic database splits.
 
-- **[Liquibase](https://github.com/liquibase/liquibase)** [![GitHub Stars](https://img.shields.io/github/stars/liquibase/liquibase?style=social&color=white)](https://github.com/liquibase/liquibase/stargazers) 🌟 **5,621 stars**  
+- **[Liquibase](https://github.com/liquibase/liquibase)** [![GitHub_Stars](https://img.shields.io/github/stars/liquibase/liquibase?style=social&color=white)](https://github.com/liquibase/liquibase/stargazers) 🌟 **5,621 stars**  
   *Database schema change management solution*. Supports SQL, XML, JSON, and YAML formats for CI/CD database deployment tracking.
 
-- **[SchemaHero](https://github.com/schemahero/schemahero)** [![GitHub Stars](https://img.shields.io/github/stars/schemahero/schemahero?style=social&color=white)](https://github.com/schemahero/schemahero/stargazers) 🌟 **1,272 stars**  
+- **[SchemaHero](https://github.com/schemahero/schemahero)** [![GitHub_Stars](https://img.shields.io/github/stars/schemahero/schemahero?style=social&color=white)](https://github.com/schemahero/schemahero/stargazers) 🌟 **1,272 stars**  
   *Declarative database schema migration tool for Kubernetes*. Converts declarative YAML table definitions into database migration scripts.
 
 ---
